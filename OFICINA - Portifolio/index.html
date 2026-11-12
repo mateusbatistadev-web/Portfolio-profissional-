@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#06130f">
+  <meta name="description" content="Portfólio de Marcos Mateus Batista Santos, estudante de tecnologia e desenvolvimento web.">
+  <title>Marcos Mateus Batista Santos | Portfólio</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+
+
+<body>
+  <header class="topo">
+    <a class="logo" href="#inicio" aria-label="Página inicial">M<span>.</span></a>
+    <nav aria-label="Navegação principal">
+      <a href="#sobre">Sobre</a>
+      <a href="#portfolio">Projetos</a>
+      <a href="#skills">Habilidades</a>
+      <a href="#contato">Contato</a>
+    </nav>
+    <button id="btn-tema" class="btn-tema" type="button" aria-label="Alternar tema">☼</button>
+  </header>
+
+  <main>
+    <section id="inicio" class="apresentacao">
+      <div class="apresentacao-texto">
+        <p class="saudacao"><span class="status"></span> Olá! Seja bem-vindo ao meu portfólio</p>
+        <h1>Marcos Mateus<br>Batista Santos<span class="ponto">.</span></h1>
+        <h2 class="cargo">Estudante de tecnologia <span>·</span> Desenvolvedor Full-stack</h2>
+        <p class="descricao">Gosto de transformar ideias em experiências digitais. Estou desenvolvendo minhas habilidades em criação de interfaces, lógica de programação e desenvolvimento web, sempre buscando aprender e evoluir.</p>
+        <div class="acoes">
+          <a class="botao" href="#portfolio">Conheça meus projetos <span>↗</span></a>
+          <a class="link-secundario" href="#contato">Entre em contato</a>
+        </div>
+      </div>
+      <div class="foto-area">
+        <div class="foto-anel"></div>
+        <img class="foto" src="img/perfil.jpeg" alt="Foto de perfil de Marcos Mateus Batista Santos">
+        <div class="etiqueta-foto"><span></span> Em constante aprendizado</div>
+      </div>
+      <div class="decor decor-um"></div><div class="decor decor-dois"></div>
+    </section>
+
+    <section id="sobre" class="secao sobre-secao">
+      <p class="sobretitulo">UM POUCO SOBRE MIM</p>
+      <h2>Construindo meu caminho <span>na tecnologia.</span></h2>
+      <p>Sou estudante e tenho interesse em desenvolvimento de software e criação de sites. Venho praticando com HTML, CSS e JavaScript, criando pequenos projetos para colocar em prática o que aprendo. Meu objetivo é crescer como desenvolvedor e participar de projetos que resolvam problemas reais.</p>
+    </section>
+
+    <section id="portfolio" class="secao">
+      <div class="secao-cabecalho"><div><p class="sobretitulo">MEU TRABALHO</p><h2>Projetos em <span>destaque.</span></h2></div><p class="apoio">Alguns exercícios e projetos que desenvolvi durante meus estudos.</p></div>
+      <div class="carrossel">
+        <button id="btn-anterior" class="seta" type="button" aria-label="Projetos anteriores">‹</button>
+        <div class="trilho" id="trilho-projetos">
+          <a href="MiniProjetos - FrontEnd/Lampada - Atividade - Método 1/index.html" target="_blank" rel="noopener" class="card-link"><article class="card"><div class="card-imagem"><img src="MiniProjetos - FrontEnd/Lampada - Atividade - Método 1/lamp_on_off.png" alt="Projeto de lâmpada"></div><p class="categoria">HTML · CSS · JS</p><h3>Lâmpada interativa</h3><p>Uma lâmpada que pode ser ligada e desligada por meio de interação.</p><span class="card-abrir">Ver projeto ↗</span></article></a>
+          <a href="MiniProjetos - FrontEnd/atividade_lista_tarefas/index.html" target="_blank" rel="noopener" class="card-link"><article class="card"><div class="card-imagem numero">02</div><p class="categoria">HTML · CSS · JS</p><h3>Lista de tarefas</h3><p>Aplicação para adicionar e organizar tarefas do dia a dia.</p><span class="card-abrir">Ver projeto ↗</span></article></a>          
+          <a href="MiniProjetos - FrontEnd/landing-page/index.html" target="_blank" rel="noopener" class="card-link"><article class="card"><div class="card-imagem numero">03</div><p class="categoria">HTML · CSS · JS</p><h3>Calculadora</h3><p>Uma página de destino simples, com foco em estrutura e apresentação visual.</p><span class="card-abrir">Ver projeto ↗</span></article></a>
+          <a href="MiniProjetos - FrontEnd/atividade_lista_tarefas/index.html" target="_blank" rel="noopener" class="card-link"><article class="card"><div class="card-imagem numero">03</div><p class="categoria">HTML · CSS · JS</p><h3>Lista de tarefas</h3><p>Aplicação para adicionar e organizar tarefas do dia a dia.</p><span class="card-abrir">Ver projeto ↗</span></article></a>
+          <a href="MiniProjetos - FrontEnd/plano-tarefas/index.html" target="_blank" rel="noopener" class="card-link"><article class="card"><div class="card-imagem numero">04</div><p class="categoria">IDEIA DE PROJETO</p><h3>Plano de tarefas</h3><p>Uma proposta de organização de atividades e acompanhamento de tarefas.</p><span class="card-abrir">Ver projeto ↗</span></article></a>
+          <a href="MiniProjetos - FrontEnd/lista-compras/index.html" target="_blank" rel="noopener" class="card-link"><article class="card"><div class="card-imagem numero">05</div><p class="categoria">IDEIA DE PROJETO</p><h3>Lista de compras</h3><p>Uma ideia de aplicação simples para organizar itens de uma compra.</p><span class="card-abrir">Ver projeto ↗</span></article></a>
+        </div>
+        <button id="btn-proximo" class="seta" type="button" aria-label="Próximos projetos">›</button>
+      </div>
+    </section>
+
+    <section id="skills" class="secao skills-secao">
+      <p class="sobretitulo">O QUE ESTOU APRENDENDO</p><h2>Minhas <span>habilidades.</span></h2>
+      <p class="apoio">Tecnologias que venho estudando e praticando nos meus projetos.</p>
+      <div class="skills-grid">
+        <div class="skill"><div class="skills-cabecalho"><span>HTML</span><span>90%</span></div><div class="barra"><div class="nivel" data-nivel="90"></div></div></div>
+        <div class="skill"><div class="skills-cabecalho"><span>CSS</span><span>75%</span></div><div class="barra"><div class="nivel" data-nivel="75"></div></div></div>
+        <div class="skill"><div class="skills-cabecalho"><span>JavaScript</span><span>50%</span></div><div class="barra"><div class="nivel" data-nivel="50"></div></div></div>
+      </div>
+    </section>
+
+    <section id="contato" class="secao">
+      <p class="sobretitulo">VAMOS CONVERSAR?</p><h2>Entre em <span>contato.</span></h2>
+      <div class="contato-grid">
+        <article class="contato-texto"><h3>Tem uma ideia ou oportunidade?</h3><p>Fique à vontade para enviar uma mensagem. Será um prazer conversar!</p><p class="email-info">✉ <span>Adicione seu e-mail de contato aqui</span></p></article>
+        <form id="form-contato" class="formulario" novalidate>
+          <label for="nome">Seu nome</label><input id="nome" type="text" placeholder="Como você se chama?" required>
+          <label for="email">Seu e-mail</label><input id="email" type="email" placeholder="voce@exemplo.com" required>
+          <label for="mensagem">Mensagem</label><textarea id="mensagem" rows="4" placeholder="Escreva sua mensagem..." required></textarea>
+          <button class="botao" type="submit">Enviar mensagem <span>↗</span></button><p id="retorno-formulario" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+  <footer><a class="logo" href="#inicio">M<span>.</span></a><p>© 2026 Marcos Mateus Batista Santos · Feito com dedicação.</p><a href="#inicio" class="voltar-topo">Voltar ao topo ↑</a></footer>
+</body>
+</html>
